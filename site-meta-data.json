@@ -1,9 +1,9 @@
 {
-  "title": "Delog",
-  "siteUrl": "https://delog-w3layouts.netlify.com/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "title": "Pixel District",
+  "siteUrl": "https://pixel-district.netlify.app/",
+  "description": "Pixel District is a blog about programming in the real world.",
   "home": {
-    "title": "Hi! I'm Delog",
-    "description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
+    "title": "Pixel District",
+    "description": "Pixel District is a programming blog that explores the practical applications of coding in the real world. From building apps to writing scripts to automate mundane tasks, this blog offers tips, tricks, and insights to help readers create innovative solutions for everyday problems."
   }
 }
