@@ -1,454 +1,52 @@
 ---
 template: BlogPost
-path: /remark-kitchen-sink
-date: 2020-02-21T12:12:25.364Z
-title: 'Hello World: The remark Kitchen Sink'
-thumbnail: /assets/image-6.jpg
+path: /join-the-dark-side
+date: 2022-04-14T12:12:00.000Z
+title: 'Join the dark side: Moving to Linux'
+metaDescription: linux arch manjaro distros windows11
+thumbnail: /assets/maxresdefault.jpg
 ---
-# h1 Heading 8-)
+<!--StartFragment-->
 
-## h2 Heading
+After over 7 years on windows, my recent update to windows 11, left me bitter and unsatisfied and with more questions on how exactly it was an improvement from windows 10. Don’t get me wrong Windows 11 is still a great operating system with many features for users to go “OooOh” over. The softer more rounded windows, and translucent screens definitely felt like a much needed change after nearly seven years of Windows 10. Despite the welcome improvements, it feels like Microsoft just slapped on a new coat of paint with a fresh set of problems that many passive users will find insignificant and as my friends put it “only important for compulsive freaks.”
 
-### h3 Heading
+But to me, these personal peeves were the last straw that drove me to the dark abyss where Linux distros and their respective fan boys live. My biggest problem with Windows 11 had to be the stringent hardware requirements and how taxing it was on my computer’s hardware with little to no improvements in performance. To be fair, many of the hardware requirements for Windows 11 are actually surprisingly low—a 1GHz CPU, 4GB of RAM, and 64GB of storage. Those sound like specs from 10 years ago. The real blockers are three specific hardware requirements;
 
-#### h4 Heading
+* The CPU must be recent, from about the last three years.
+* The PC must have a TPM security chip.
+* The computer’s firmware must be capable of using UEFI, Secure Boot.
 
-##### h5 Heading
+\
+The last two really had me to be honest as well as a lot of superficial reasons that aren’t really the point of this. Having taken all this into account as well as the advise of a friend, I decided the great Linux migration was long overdue. Now before you decide that this is for you, here are a few things you should be warned about.
 
-###### h6 Heading
+### **Linux isn’t a replacement for Windows**
 
-## Horizontal Rules
+I know, I know. Then what the hell is the point of this post, you ask. Well, the only thing that Linux and windows share is that they’re both operating systems. While most Linux distros look and feel like Windows, its important to remember that its not. Just because its faster or shiner doesn’t necessarily mean that its the best option for your use case.
 
-- - -
 
-- - -
 
-- - -
-
-## Typographic replacements
-
-Enable typographer option to see result.
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,,  -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-## Emphasis
-
-**This is bold text**
-
-**This is bold text**
-
-*This is italic text*
-
-*This is italic text*
-
-~~Strikethrough~~
-
-## Blockquotes
-
-> Blockquotes can also be nested...
+> *“I don’t try to be a threat to Microsoft, mainly because I don’t really see MS as competition. Especially not Windows-the goals of Linux and Windows are simply so different.”*
 >
-> > ...by using additional greater-than signs right next to each other...
-> >
-> > > ...or with spaces between arrows.
+> Linus Torvalds
 
-## Lists
+### **Get comfortable living in the black box that is the terminal**
 
-Unordered
+In Linux the terminal isn’t just for development. Despite many distros like Ubuntu and Manjaro being almost as out-of-the-box-ready as Windows and not really needing any technical know-how to setup, the shell terminal remains the lifeline of Linux. Unlike other OSes, Linux distros are more dependent on the terminal to carry out regular and not so regular tasks alike. It goes without saying that the terminal is also powerful giving you full control of your system(Not to mention makes you feel just like Johnny Lee Miller in Hackers).
 
-* Create a list by starting a line with `+`, `-`, or `*`
-* Sub-lists are made by indenting 2 spaces:
 
-  * Marker character change forces new list start:
 
-    * Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
-    * Nulla volutpat aliquam velit
-* Very easy!
+### How the hell do I get my printer to work?
 
-Ordered
+Linux is the least popular OS for a reason. Granted most of the hate is because people assume that its hard without even trying, but when it comes to setting up peripherals be prepared to split a few hairs trying to find drivers for your printer. Linux doesn’t have official software support for many hardware brands including Razer and Asus which makes setting up gaming keyboards, mice(mouses?) a real hassle. This is because most brands disregard Linux since most of their target market won’t be on it anyway. Its a vicious cycle but their is some hope. Due to the open source nature of Linux finding solutions and alternatives for setting up popular devices shouldn’t be too hard on the forum for your chosen flavor of Linux.
 
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-4. You can use sequential numbers...
-5. ...or keep all the numbers as `1.`
+### **Don’t be scared to ask for help**
 
-Start numbering with offset:
+I know, Linux can seem intimidating in a Stack Overflow kind of way but I was very surprised to find out that most Distros have very active and well managed forums that are very friendly to newcomers. Ubuntu having the highest number of users offers massive community support meaning whatever issue your having has most likely already been solved. Arch Linux being the most hardcore of the distributions doesn't have a support period but offers well-maintained documentation known as[ArchWiki](https://www.blogger.com/blog/post/edit/1587412109363603613/6470730734207725008#). The Arch User Forum, despite being intimidating has a “newbies corner” to protect you from the big bad Arch bullies.
 
-57. foo
-58. bar
+Now most of these might seem like downsides if you’ve never experienced Linux before but after a while on the dark side you start to see the upsides of doing things differently. Linux didn’t have the advantages that a big corporate engine like Microsoft could offer and had to evolve differently in order to compete effectively. After over a month of coding on Linux(I use Arch btw) I can honestly say I will never go back to the restrictions that Windows creates.
 
-## Code
-
-Inline `code`
-
-Indented code
-
-```
-// Some comments
-line 1 of code
-line 2 of code
-line 3 of code
-```
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-```js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-
-Right aligned columns
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png) ![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text](https://octodex.github.com/images/dojocat.jpg "The Dojocat")
-
-With a reference later in the document defining the URL location:
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of [syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
+> *“Freedom means not having a master. And in the area of computing, freedom means not using proprietary software.”*
 >
-> Shortcuts (emoticons): :-) :-( 8-) ;)
+> Richard Stallman
 
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-* 19^th^
-* H\~2\~O
-
-### [<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-### [<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-\==Marked text==
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link\[^first].
-
-Footnote 2 link\[^second].
-
-Inline footnote^\[Text of inline footnote] definition.
-
-Duplicated footnote reference\[^second].
-
-\[^first]: Footnote **can have markup**
-
-```
-and multiple paragraphs.
-```
-
-\[^second]: Footnote text.
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1 with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-```
-    { some code, part of Definition 2 }
-
-Third paragraph of definition 2.
-```
-
-*Compact style:*
-
-Term 1   ~ Definition 1
-
-Term 2   \~ Definition 2a
-  \~ Definition 2b
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-\*\[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning *here be dragons* :::---
-**Advertisement :)**
-
-* **[pica](https://nodeca.github.io/pica/demo/)** - high quality and fast image resize in browser.
-* **[babelfish](https://github.com/nodeca/babelfish/)** - developer friendly i18n with plurals support and easy syntax.
-
-You will like those projects!
-
-- - -
-
-# h1 Heading 8-)
-
-## h2 Heading
-
-### h3 Heading
-
-#### h4 Heading
-
-##### h5 Heading
-
-###### h6 Heading
-
-## Horizontal Rules
-
-- - -
-
-- - -
-
-- - -
-
-## Typographic replacements
-
-Enable typographer option to see result.
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,,  -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-## Emphasis
-
-**This is bold text**
-
-**This is bold text**
-
-*This is italic text*
-
-*This is italic text*
-
-~~Strikethrough~~
-
-## Blockquotes
-
-> Blockquotes can also be nested...
->
-> > ...by using additional greater-than signs right next to each other...
-> >
-> > > ...or with spaces between arrows.
-
-## Lists
-
-Unordered
-
-* Create a list by starting a line with `+`, `-`, or `*`
-* Sub-lists are made by indenting 2 spaces:
-
-  * Marker character change forces new list start:
-
-    * Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
-    * Nulla volutpat aliquam velit
-* Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-4. You can use sequential numbers...
-5. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-58. bar
-
-## Code
-
-Inline `code`
-
-Indented code
-
-```
-// Some comments
-line 1 of code
-line 2 of code
-line 3 of code
-```
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-```js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-
-Right aligned columns
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png) ![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text](https://octodex.github.com/images/dojocat.jpg "The Dojocat")
-
-With a reference later in the document defining the URL location:
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of [syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-* 19^th^
-* H\~2\~O
-
-### [<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-### [<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-\==Marked text==
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link\[^first].
-
-Footnote 2 link\[^second].
-
-Inline footnote^\[Text of inline footnote] definition.
-
-Duplicated footnote reference\[^second].
-
-\[^first]: Footnote **can have markup**
-
-```
-and multiple paragraphs.
-```
-
-\[^second]: Footnote text.
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1 with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-```
-    { some code, part of Definition 2 }
-
-Third paragraph of definition 2.
-```
-
-*Compact style:*
-
-Term 1   ~ Definition 1
-
-Term 2   \~ Definition 2a
-  \~ Definition 2b
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-\*\[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning *here be dragons* :::
+<!--EndFragment-->
