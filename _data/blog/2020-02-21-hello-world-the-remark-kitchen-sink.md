@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /join-the-dark-side
-date: 2022-04-14T12:12:00.000Z
+date: 2023-03-14T12:12:00.000Z
 title: 'Join the dark side: Moving to Linux'
 metaDescription: linux arch manjaro distros windows11
 thumbnail: /assets/maxresdefault.jpg
