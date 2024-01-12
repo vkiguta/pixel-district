@@ -18,7 +18,9 @@ The world of static site generators beckons,and Gatsby JS stands tall as a shini
 
 **Step 1: Setting the Stage:**
 
-* **Install Gatsby:**Open your terminal and run`npm install -g gatsby-cli`.This equips you with the Gatsby command-line interface.
+* **Install Gatsby:**Open your terminal and run
+`npm install -g gatsby-cli`
+This equips you with the Gatsby command-line interface.
 * **Pick Your Starter:**Head to<https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog>and choose a starter template like "gatsby-starter-blog".These pre-configured templates save you tons of time!
 * **Clone Your Choice:**Run`gatsby new my-blog --starter [starter-name]`in your terminal,replacing`[starter-name]`with your chosen starter.This creates a local directory for your blog.
 
