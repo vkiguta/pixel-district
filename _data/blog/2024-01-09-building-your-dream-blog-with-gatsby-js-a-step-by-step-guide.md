@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /Building Your Dream Blog with Gatsby JS
-date: 2024-01-09T19:05:13.153Z
+date: 2023-04-20T19:05:13.153Z
 title: ' Building Your Dream Blog with Gatsby JS: A Step-by-Step Guide'
 metaDescription: >-
   Dive into Gatsby JS and build your dream blog! This step-by-step guide takes
