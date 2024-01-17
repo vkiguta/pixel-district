@@ -4,7 +4,7 @@ path: /join-the-dark-side
 date: 2023-03-14T12:12:00.000Z
 title: 'Join the dark side: Moving to Linux'
 metaDescription: linux arch manjaro distros windows11
-thumbnail: /assets/maxresdefault.jpg
+thumbnail: /assets/knknkn.jpg
 ---
 <!--StartFragment-->
 
